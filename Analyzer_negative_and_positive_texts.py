@@ -12,9 +12,9 @@
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from click import clear
+# pip install googletrans==4.0.0-rc1
 from googletrans import Translator
-
-
+# pip install pyarabic
 from pyarabic.araby import normalize_hamza, normalize_ligature, normalize_alef, strip_tashkeel
 
 def darija_to_fusha(text):
